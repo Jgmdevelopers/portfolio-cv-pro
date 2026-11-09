@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio profesional y currículum digital.">
+  <meta name="theme-color" content="#101827">
+  <title>Portfolio CV Pro</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" id="marca">Portfolio<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navegacion">☰</button>
+      <nav id="navegacion" aria-label="Navegación principal">
+        <a href="#sobre-mi">Sobre mí</a><a href="#experiencia">Experiencia</a><a href="#formacion">Formación</a><a href="#proyectos">Trabajos</a><a href="#contacto">Contacto</a>
+      </nav>
+      <button id="cambiar-tema" class="theme-toggle" type="button" aria-label="Cambiar tema" title="Cambiar tema">☾</button>
+    </div>
+  </header>
+  <main id="contenido">
+    <section class="hero container" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow" id="etiqueta">PORTFOLIO PROFESIONAL</p>
+        <h1 id="nombre">Tu nombre<br>profesional</h1>
+        <p class="hero-role" id="profesion">Profesional independiente</p>
+        <p class="hero-intro" id="descripcion">Una presentación clara de tu experiencia, especialidades y proyectos.</p>
+        <div class="actions"><a class="button primary" id="enlace-contacto" href="#contacto">Contactarme ↗</a><a class="button secondary" id="enlace-cv" href="assets/cv.pdf" download>Descargar CV ↓</a></div>
+        <p class="location" id="ubicacion">Argentina · Disponible para proyectos</p>
+      </div>
+      <div class="hero-art" aria-label="Imagen de presentación"><div class="portrait-placeholder" id="retrato"><span id="iniciales">CV</span></div><div class="floating-note">Experiencia que<br><strong>genera confianza.</strong></div></div>
+    </section>
+    <section class="section section-soft" id="sobre-mi"><div class="container two-col"><div><p class="eyebrow">01 / PERFIL</p><h2>Sobre mí<span class="accent">.</span></h2></div><p class="lead" id="biografia"></p></div></section>
+    <section class="section" id="experiencia"><div class="container"><div class="section-head"><div><p class="eyebrow">02 / TRAYECTORIA</p><h2>Experiencia<span class="accent">.</span></h2></div><p>Un recorrido profesional construido con compromiso y resultados.</p></div><div class="timeline" id="lista-experiencia"></div></div></section>
+    <section class="section section-soft" id="formacion"><div class="container"><div class="section-head"><div><p class="eyebrow">03 / CONOCIMIENTO</p><h2>Formación<span class="accent">.</span></h2></div></div><div class="cards" id="lista-formacion"></div></div></section>
+    <section class="section" id="habilidades"><div class="container"><p class="eyebrow">04 / ESPECIALIDADES</p><h2>Habilidades<span class="accent">.</span></h2><div class="chips" id="lista-habilidades"></div></div></section>
+    <section class="section section-soft" id="proyectos"><div class="container"><div class="section-head"><div><p class="eyebrow">05 / PORTFOLIO</p><h2>Trabajos destacados<span class="accent">.</span></h2></div><p>Una selección de experiencias y proyectos.</p></div><div class="cards projects" id="lista-proyectos"></div></div></section>
+    <section class="section contact-section" id="contacto"><div class="container contact-wrap"><div><p class="eyebrow">06 / HABLEMOS</p><h2>¿Trabajamos<br>juntos<span class="accent">?</span></h2><p id="mensaje-contacto">Estoy disponible para escuchar propuestas y nuevas oportunidades.</p></div><div class="contact-actions" id="lista-contacto"></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><span id="pie-nombre">Portfolio CV Pro</span><span>© <span id="anio"></span> · Todos los derechos reservados</span></div></footer>
+  <div class="error-banner" id="error" role="alert" hidden>No se pudo cargar la configuración. Abrí el sitio con un servidor local (no como archivo).</div>
+</body>
+</html>

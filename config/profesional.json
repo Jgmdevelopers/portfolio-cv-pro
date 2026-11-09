@@ -1,0 +1,35 @@
+{
+  "nombre": "Alex Martínez",
+  "iniciales": "AM",
+  "profesion": "Consultor y profesional independiente",
+  "etiqueta": "PORTFOLIO / CURRÍCULUM DIGITAL",
+  "descripcion": "Acompaño a personas y organizaciones con soluciones prácticas, atención personalizada y compromiso con los resultados.",
+  "ubicacion": "Argentina · Atención presencial y remota",
+  "biografia": "Soy un profesional orientado a resolver desafíos concretos, combinando experiencia, formación continua y un trato cercano. En este espacio comparto mi trayectoria, especialidades y algunos de mis trabajos más representativos.",
+  "foto": "",
+  "cv": "",
+  "color": "#2563eb",
+  "mensaje_contacto": "¿Tenés una propuesta o querés conocer más sobre mi trabajo? Escribime.",
+  "experiencia": [
+    {"periodo":"2023 — Actualidad","cargo":"Consultor independiente","organizacion":"Actividad profesional","descripcion":"Asesoramiento y ejecución de proyectos personalizados para clientes."},
+    {"periodo":"2020 — 2023","cargo":"Especialista de área","organizacion":"Organización de ejemplo","descripcion":"Coordinación de tareas, seguimiento de objetivos y mejora de procesos."}
+  ],
+  "formacion": [
+    {"tipo":"ESTUDIOS","titulo":"Formación superior en el área","institucion":"Institución educativa · 2020"},
+    {"tipo":"CERTIFICACIÓN","titulo":"Especialización profesional","institucion":"Entidad certificadora · 2022"},
+    {"tipo":"ACTUALIZACIÓN","titulo":"Capacitación continua","institucion":"Cursos y seminarios · 2024"}
+  ],
+  "habilidades": ["Gestión de proyectos","Comunicación","Resolución de problemas","Atención al cliente","Trabajo en equipo","Planificación"],
+  "proyectos": [
+    {"categoria":"PROYECTO DESTACADO","titulo":"Proyecto de transformación","descripcion":"Mejora de un proceso mediante un enfoque práctico y medible.","url":""},
+    {"categoria":"CASO DE TRABAJO","titulo":"Asesoramiento profesional","descripcion":"Solución adaptada a una necesidad concreta del cliente.","url":""},
+    {"categoria":"COLABORACIÓN","titulo":"Trabajo interdisciplinario","descripcion":"Coordinación con otros especialistas para alcanzar resultados.","url":""}
+  ],
+  "contacto": {
+    "email": "alex@example.com",
+    "whatsapp": "",
+    "linkedin": "",
+    "sitio": ""
+  },
+  "secciones": {"experiencia":true,"formacion":true,"habilidades":true,"proyectos":true}
+}
